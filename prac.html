@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+body{
+    background-color: #6791cb;
+}
+*{
+    font-family:arial;
+}
+.container{
+    height: 530px;
+    width:400px;
+    background-color: white;
+    margin-top: 80px;
+    border-radius: 2px;
+}
+h1{
+    background-color:#2858d6;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.cont{
+    display: flex;
+    padding-left: 10px;
+}
+.minicont{
+    padding-left: 10px;
+    font-size: large;
+}
+.minicont input{
+      border-radius: 5px;
+      height: 30px;
+      width: 160px;
+}
+.myclass{
+    padding-left: 30px;
+    font-size: large;
+}
+.myclass input{
+    width: 300px;
+    height:30px;
+    border-radius: 5px;
+}
+p{
+    font-size: large;
+    padding-left: 20px;
+}
+.c1{
+    font-size:x-large;
+    background-color:#cfeef3;
+    border-radius:15px;
+    height:40px;
+    width:250px;
+    margin-left:80px;
+    border: #bddee7;
+}
+
+button{
+    background-color: #2960d5;
+    height:40px;
+    width:320px;
+    margin-left: 50px;
+    border-radius: 2px;
+    color: white;
+    border-color:#2960d5;
+    font-size: large;
+}
+</style>
+<body>
+    <form action="">
+    <div class="container">
+        <h1>REGISTRATION FORM</h1>
+        <div class="cont">
+        <div class="minicont">
+            <label for="fname">First Name</label> 
+            <input type="text" required> 
+            </div>
+            <div class="minicont">
+            <label for="lname">Last Name</label> 
+            <input type="text" required>
+        </div>
+        </div>
+        <br>
+        <div class="myclass">
+            <label for="email">Email Address</label> <br> 
+            <input type="email" required> 
+        </div>
+        <br>
+        <div class="myclass">
+            <label for="city">City</label> <br> 
+            <input type="text" required> 
+        </div>
+        <br>
+        <div class="myclass">
+            <label for="Country">Country</label> <br> 
+            <input type="text" required> 
+        </div>
+        <p>Gender</p>
+        
+        <div class="c1">
+            <label for="gender">Male</label> 
+            <input type="radio" name="gender" id="">
+            <label for="gender">Female</label> 
+            <input type="radio" name="gender" id=""> 
+        </div>
+        <br>
+        <button>
+            REGISTER NOW
+        </button>
+
+    </div> 
+</form>   
+</body>
+</html>
+
+

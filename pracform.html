@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<style>
+    *{
+        font-family:serif;
+        line-height: 30px;
+    }
+    body{
+        background-color: rgb(31, 153, 205);
+    }
+    .CONTAINERFULL{
+        background-color: white;
+        margin-left: 150px;
+        margin-right: 150px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        height: 800px;
+        width: 1200px;
+        border-radius: 3px;
+    }
+    h2{
+        padding-top: 20px;
+        padding-left: 30px;
+        text-decoration:underline;
+        text-decoration-color: rgb(32, 140, 234);
+    }
+    #one{
+        padding-left: 30px;
+        font-size: large;
+    }
+    .container{
+        display: flex; 
+        padding-left: 30px;  
+        gap: 30px;
+     }
+     .container input{
+        height: 35px;
+        border-radius: 3px;
+        width: 320px;
+     }
+     .container3{
+        display:flex;
+        padding-left: 30px;  
+        gap: 125px;
+    }
+     .cont4 input{
+        height: 35px;
+        border-radius: 3px;
+        width: 320px;
+     }
+     .cont6 input{
+        height: 35px;
+        border-radius: 3px;
+        width: 320px;
+     }
+     .container7{
+        display: flex;
+        padding-left: 30px;  
+        gap: 30px;
+     }
+     .container7 input {
+        height: 35px;
+        border-radius: 3px;
+        width: 320px;
+     }
+
+    .container11{
+        display: flex;
+        padding-left: 30px;  
+        gap: 30px;
+     }
+     .container11 input{
+        height: 35px;
+        border-radius: 3px;
+        width: 320px;
+     }
+     button{
+        background-color: rgb(53, 113, 252);
+        color: white;
+        margin-left:30px ;
+        height: 40px;
+        width:220px;
+        border-radius: 4px;
+        border-color:rgb(53, 113, 252) ;
+     }
+</style>
+<body>
+    <div class="CONTAINERFULL">
+    <h2>Registration</h2>
+    <p id="one">Personal Details</p>
+    <form action="">
+    <div class="container">
+        <div class="cont0">
+        <label for="Full name">Full Name</label> <br>
+        <input type="text" placeholder="Enter your name" required>
+        </div> 
+        <div class="cont1">
+        <label for="Date of Birth">Date of Birth</label> <br> 
+        <input type="date" required> 
+        </div>
+        <div class="cont2">
+            <label for="Email">Email</label> <br> 
+            <input type="email" placeholder="Enter your email" required> 
+            </div>
+    </div>
+    <br> 
+    <div class="container3">
+        <div class="cont4">
+        <label for="Mobile Number">Mobile Number</label> <br>
+        <input type="tel" placeholder="Enter mobile number" maxlength="10" required>
+        </div>
+        <div class="cont5">
+            <p>Gender</p>
+            <label for="Gender">Male</label>
+            <input type="radio" name="Gender" id="">
+            <label for="Gender">Female</label>
+            <input type="radio" name="Gender" id="">
+        </div>
+        <div class="cont6">
+        <label for="Occupation">Occupation</label> <br>
+        <input type="text" placeholder="Enter your occupation" required>
+        </div>
+    </div>
+    <br>
+    <p id="one">Identity Details</p>
+    <div class="container7">
+        <div class="cont8">
+        <label for="ID Type">ID Type</label> <br>
+        <input type="text" placeholder="Enter ID type" required> <br>
+        </div>
+        <div class="cont9">
+        <label for="ID Number">ID Number</label> <br>
+        <input type="text" placeholder="Enter ID Number" required> <br>
+        </div>
+        <div class="cont10">
+        <label for="Issued Authority">Issued Authority</label> <br>
+        <input type="text" placeholder="Enter issued authority" required> <br>
+        </div>
+    </div>
+    <br>
+    <div class="container11">
+        <div class="cont12">
+        <label for="Issued State">Issued Type</label> <br>
+        <input type="text" placeholder="Enter Issued State" required> <br>
+        </div>
+        <div class="cont13">
+        <label for="Issued Date">Issued Date</label> <br>
+        <input type="date" required> <br>
+        </div>
+        <div class="cont14">
+        <label for="Expiry Date">Expiry Date</label> <br>
+        <input type="date" required> <br>
+        </div>
+    </div>
+    <br>
+    <button>Next</button>
+    </div>
+    </form>
+</body>
+</html>
